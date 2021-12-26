@@ -1,5 +1,5 @@
 # ALISA KONONENKO
-![photo] (/img/photo.png "Photo")
+![photo] (/photo.png "Photo")
 
 ---------------------------------------------------
 #### CONTACTS
