@@ -1,5 +1,5 @@
 # ALISA KONONENKO
-![photo] (/rsschool-cv/photo.png "Photo")
+![photo](/rsschool-cv/photo.png "Photo")
 
 ---------------------------------------------------
 #### CONTACTS
