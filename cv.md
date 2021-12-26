@@ -1,6 +1,6 @@
-# ALISA KONONENKO
+# **ALISA KONONENKO**
 ---
-#### CONTACTS
+#### **CONTACTS**
 * ##### PHONE
 +375-29-294-31-56
 * ##### E-MAIL
@@ -11,14 +11,13 @@ https://www.linkedin.com/in/alisakononenko
 https://t.me/Alice_Kononenko
 * ##### [GitHub](https://github.com/AliceKononenko)
 ---
-#### ABOUT MYSELF
-##### EDUCATION
-* International Sakharov Environmental Institute
-  + Information systems and technologies (in healthcare) 2021
+#### **ABOUT MYSELF**
+#### EDUCATION
+###### International Sakharov Environmental Institute
+###### *Information systems and technologies (2021)*
 
-***
-##### WORK EXPERIENCE
-* I'm working at the International Sakharov Environmental Institute since June, 2021 as a Specialist of International Relations Department
+#### WORK EXPERIENCE
+##### *I'm working at the International Sakharov Environmental Institute since June, 2021 as a Specialist of International Relations Department*
 #### SKILLS
 * C
 * C++
@@ -32,10 +31,10 @@ https://t.me/Alice_Kononenko
 * React
 
 ---
-#### CODE
+#### **CODE**
 ##### * This UseEffect hook calculates the average water requirement depending on the selected gender of the person and records the entered data to the browser's local storage Local Storage *
 ```
- useEffect(()=>{ 
+    useEffect(()=>{ 
         if (gender === 'men') {
             setDayNorm(((0.03 * mas + activeTime * 0.5)*+activity*+weather).toFixed(1)); 
         } else {
@@ -49,11 +48,11 @@ https://t.me/Alice_Kononenko
 ```
 
 ---
-#### COURSES
+#### **COURSES**
 * Development SAPUI5 on SAP Cloud Platform (March, 2021)
 
 ---
-#### LANGUAGES
+#### **LANGUAGES**
 * Russian (native)
 * English (B1 level) 
     + communication with native speakers on work 
