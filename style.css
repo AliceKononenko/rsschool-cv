@@ -1,0 +1,12 @@
+html {
+    text-align: center;
+    margin-top: 50px;
+}
+.personName {
+    font-size: 4em;
+    color: red;
+}
+
+.photo {
+    height: 400px;
+}
