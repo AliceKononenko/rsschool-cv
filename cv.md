@@ -32,7 +32,7 @@ https://t.me/Alice_Kononenko
 
 ---
 #### **CODE**
-##### * This UseEffect hook calculates the average water requirement depending on the selected gender of the person and records the entered data to the browser's local storage Local Storage *
+##### *This UseEffect hook calculates the average water requirement depending on the selected gender of the person and records the entered data to the browser's local storage Local Storage*
 ```
     useEffect(()=>{ 
         if (gender === 'men') {
