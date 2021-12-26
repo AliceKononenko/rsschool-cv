@@ -1,5 +1,6 @@
 # ALISA KONONENKO
 ![photo] (/img/photo.png "Photo")
+
 ---------------------------------------------------
 #### CONTACTS
 * ##### PHONE
@@ -29,10 +30,11 @@ https://t.me/Alice_Kononenko
 * CSS
 * JS
 * React
+
 ---------------------------------------------------
 #### CODE
-##### > This UseEffect hook calculates the average water requirement depending on the selected gender of the person and records the entered data to the browser's local storage Local Storage
-'''
+##### > This UseEffect hook calculates the average water requirement depending on the selected gender of the person and records the entered data to the browser's local storage Local Storage >
+```
  useEffect(()=>{ 
         if (gender === 'men') {
             setDayNorm(((0.03 * mas + activeTime * 0.5)*+activity*+weather).toFixed(1)); 
@@ -44,7 +46,7 @@ https://t.me/Alice_Kononenko
         localStorage.setItem('activeTime', activeTime.toString());
         localStorage.setItem('activity', activity);
     }, [gender, mas, activeTime, activity, weather]);
-'''
+```
 
 ---------------------------------------------------
 #### COURSES
