@@ -1,33 +1,96 @@
 * {
     box-sizing: border-box;
+    font-family: 'Belgrano', serif;
 }
-html {
-    text-align: center;
-}
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
 p {
    margin: 0;
 }
 li {
     margin-bottom: 15px;
 }
+h3 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+h4 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
 .cv {
     display: flex;
     border: gray dotted 0.5px;
     max-width: 1024px;
-    margin: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
 }
-.photo_contacts {
+.photo_contacts_block {
     border: gray solid dotted;
-    margin: 20px;
+    margin: 0 0 0 20px;
+    background-color: #00242b;
+    width: 350px;
+}
+.section {
+    box-sizing: border-box;
+}
+.myphoto {
+    text-align: center;
 }
 .photo {
     height: 300px;
+    margin-top: 20px;
+}
+.contacts_text {
+    margin-top: 20px;
+    color: #78a1bb;
+    text-align: center;
 }
 .contacts_list {
     text-align: left;
+    color: white;
+}
+.allInformation {
+    background-color: pink;
+    margin-top: 20px;
+    width: 75%;
+}
+.name_specialty_block {
+    background-color: #03674f;   
+    height: 250px;
+    vertical-align: middle; 
+    display: table-cell;
+    text-align: center;
 }
 .personName {
     font-size: 4em;
-    color: red;
+    color: white;
 }
+.specialtyName {
+    font-size: 3em;
+    color: black;
+}
+.information {
+    margin: 20px;
+}
+.headName {
+    font-size: x-large;
+    font-style: italic;
+    text-align: center;
+}
+.description {
+    text-align: initial;
+}
+.descriptionHead {
+    font-size: 2em;
+}
+.additionalDescription {
+    font-style: italic;
+    margin-bottom: 0;
+}
+
 
