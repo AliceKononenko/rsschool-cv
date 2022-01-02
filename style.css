@@ -109,6 +109,20 @@ nav {
     font-style: italic;
     margin-bottom: 0;
 }
+summary {
+    display: block;
+}
+  
+summary::-webkit-details-marker {
+    display: none;
+}
+summary {
+    color: purple;
+}
+.codeStyle {
+    font-size: 16px;
+    text-align: left;
+}
 .footer {
     display: block;
     height: 70px;
