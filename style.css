@@ -2,6 +2,9 @@
     box-sizing: border-box;
     font-family: 'Belgrano', serif;
 }
+html {
+    scroll-behavior: smooth;
+}
 body {
     display: flex;
     flex-direction: column;
@@ -12,6 +15,8 @@ p {
 }
 li {
     margin-bottom: 15px;
+    width: 100%;
+    list-style-type: none;
 }
 h3 {
     margin-top: 10px;
@@ -20,6 +25,9 @@ h3 {
 h4 {
     margin-top: 0;
     margin-bottom: 0;
+}
+nav {
+    display: block;
 }
 .cv {
     display: flex;
@@ -49,29 +57,38 @@ h4 {
     margin-top: 20px;
     color: #78a1bb;
     text-align: center;
+
 }
 .contacts_list {
     text-align: left;
     color: white;
 }
+.rssLogo {
+    background-image: url(img/rss.svg);
+    height: 65px;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 390px;
+
+}
 .allInformation {
     background-color: pink;
     margin-top: 20px;
-    width: 75%;
 }
 .name_specialty_block {
     background-color: #03674f;   
     height: 250px;
     vertical-align: middle; 
-    display: table-cell;
     text-align: center;
+    padding-top: 10px;
+
 }
 .personName {
-    font-size: 4em;
+    font-size: 48px;
     color: white;
 }
 .specialtyName {
-    font-size: 3em;
+    font-size: 32px;
     color: black;
 }
 .information {
@@ -91,6 +108,20 @@ h4 {
 .additionalDescription {
     font-style: italic;
     margin-bottom: 0;
+}
+.footer {
+    display: block;
+    height: 70px;
+}
+.footerElements {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    padding-top: 20px;
 }
 
 
