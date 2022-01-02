@@ -1,12 +1,33 @@
+* {
+    box-sizing: border-box;
+}
 html {
     text-align: center;
-    margin-top: 50px;
+}
+p {
+   margin: 0;
+}
+li {
+    margin-bottom: 15px;
+}
+.cv {
+    display: flex;
+    border: gray dotted 0.5px;
+    max-width: 1024px;
+    margin: 20px;
+}
+.photo_contacts {
+    border: gray solid dotted;
+    margin: 20px;
+}
+.photo {
+    height: 300px;
+}
+.contacts_list {
+    text-align: left;
 }
 .personName {
     font-size: 4em;
     color: red;
 }
 
-.photo {
-    height: 400px;
-}
