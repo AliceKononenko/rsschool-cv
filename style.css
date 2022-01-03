@@ -54,7 +54,7 @@ nav {
     margin-top: 20px;
 }
 .contacts_text {
-    margin-top: 20px;
+    margin-top: 70px;
     color: #78a1bb;
     text-align: center;
 
@@ -62,14 +62,6 @@ nav {
 .contacts_list {
     text-align: left;
     color: white;
-}
-.rssLogo {
-    background-image: url(img/rss.svg);
-    height: 65px;
-    background-repeat: no-repeat;
-    background-position: center;
-    margin-top: 390px;
-
 }
 .allInformation {
     background-color: pink;
@@ -122,6 +114,9 @@ summary {
 .codeStyle {
     font-size: 16px;
     text-align: left;
+}
+.rssLogo {
+    height: 30px;
 }
 .footer {
     display: block;
