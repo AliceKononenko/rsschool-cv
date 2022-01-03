@@ -63,14 +63,7 @@ nav {
     text-align: left;
     color: white;
 }
-.rssLogo {
-    background-image: url(img/rss.svg);
-    height: 65px;
-    background-repeat: no-repeat;
-    background-position: center;
-    margin-top: 390px;
 
-}
 .allInformation {
     background-color: pink;
     margin-top: 20px;
@@ -123,6 +116,9 @@ summary {
     font-size: 16px;
     text-align: left;
 }
+.rssLogo {
+    height: 30px;
+}
 .footer {
     display: block;
     height: 70px;
@@ -134,7 +130,7 @@ summary {
     align-items: center;
     margin: 0 auto;
     margin-top: 40px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     padding-top: 20px;
 }
 
