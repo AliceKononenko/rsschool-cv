@@ -3,11 +3,140 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CV#2. HTML, CSS & Git Basics</title>
+    <title>CV</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="img/icon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Belgrano&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="personName">Alisa Kononenko</div>
-    <img class="photo" src="photo.png" alt="фотография">
+    <main class="cv">
+        <header class="header"></header>
+        <section class="photo_contacts_block">
+            <div class="myphoto">
+                <img class="photo" src="img/photo.png" alt="photo">
+            </div>
+            <article class="contacts">
+                <h4 class="contacts_text">CONTACTS</h4>
+                    <ul class="contacts_list">
+                        <li>
+                            <a href="https://www.linkedin.com/in/alisakononenko">LinkedIn</a>
+                        </li>
+                        <li>
+                            <a href="https://t.me/Alice_Kononenko">Telegram</a>
+                        </li>                     
+                        <li>e-mail<p>alicekononenkomeow@gmail.com</p></li>
+                        <li>Discord<p>AliceKononenko#2792</p></li>
+                    </ul>
+                </h4>
+            </article>            
+        </section>
+        <section class="allInformation">
+            <article class="name_specialty_block">
+                <div class="personName">Alisa Kononenko</div>
+                <div class="specialtyName">Front-end developer</div>
+            </article>
+            <article class="information">
+                <div class="informationBlock">
+                    <div class="headName">
+                        <h3>EDUCATION</h3>
+                    </div>
+                    <div class="desription">
+                        <div class="descritpionHead">
+                            <h4>International Sakharov Environmental Institute</h4>
+                        </div>
+                        <div class="additionalDescription">Information systems and technologies (2021)</div>
+                    </div> 
+                    <div class="headName">
+                        <h3>COURSES</h3>
+                    </div>
+                    <div class="desription">
+                        <div class="descritpionHead">
+                            <h4>Jet BI</h4>
+                        </div>
+                        <div class="additionalDescription">Development SAPUI5 on SAP Cloud Platform (March, 2021)</div>
+                    </div>
+                    <div class="headName">
+                        <h3>SKILLS</h3>
+                    </div>
+                    <div class="desription">                        
+                        <div class="additionalDescription">Basic knowledge of algorithms and data structures, OOP</div>
+                        &nbsp;
+                        <div class="additionalDescription">Basic knowledge of programming languages and frameworks:</div>
+                        <div class="additionalDescription">C++, C#, SQL, R, php, HTML, CSS, JS, SAPUI5, React</div>
+                    </div>    
+                    <div class="headName">
+                        <h3>LANGUAGES</h3>
+                    </div>
+                    <div class="desription">
+                        <div class="descritpionHead">
+                            <h4>Russian (native)</h4>
+                        </div>
+                        &nbsp;
+                        <div class="descritpionHead">
+                            <h4>English (B1 level) </h4>
+                        </div>
+                        <li class="additionalDescription">communication with native speakers on work</li>
+                        <li class="additionalDescription">texting with native speakers</li>
+                        &nbsp;
+                        <div class="descritpionHead">
+                            <h4>Spanish (A1 level)</h4>
+                        </div>
+                    </div>
+                    <div class="headName">
+                        <h3>WORK EXPERIENCE</h3>
+                    </div>
+                    <div class="desription">
+                        <div class="descritpionHead">
+                            <h4>International Sakharov Environmental Institute</h4>
+                        </div>
+                        <div class="additionalDescription">Specialist of International Relations Department (since June, 2021)</div>
+                    </div> 
+                    <div class="headName">
+                        <details>
+                            <summary><h3><u class="summaryStyle">CODE</u></h3></summary>
+                            <div class="desription">                        
+                                <div class="codeStyle">useEffect(()=>{ 
+                                    <br>if (gender === 'men') {
+                                    <br>setDayNorm(((0.03 * mas + activeTime * 0.5)*
+                                    <br>+activity*+weather).toFixed(1)); 
+                                    <br>} else {
+                                    <br>setDayNorm(((0.025 * mas + activeTime * 0.4)*
+                                    <br>+activity*+weather).toFixed(1)); 
+                                    <br>}
+                                    <br>localStorage.setItem('gender', gender);
+                                    <br>localStorage.setItem('mas', mas.toString());
+                                    <br>localStorage.setItem('activeTime', activeTime.toString());
+                                    <br>localStorage.setItem('activity', activity);
+                                    <br>}, [gender, mas, activeTime, activity, weather]);
+                                </div>
+                            </div>
+                        </details>
+                    </div>
+                                    
+                </div>
+            </article>
+            <footer class="footer">
+                <nav class="footerNav">
+                    <ul class="footerElements">
+                        <li class="rssLogo">
+                            <img class="rssLogo" src="img/rss.svg" alt="rssLogo">
+                        </li>
+                        <li class="gitLink">
+                            <a href="https://github.com/AliceKononenko">Github</a>
+                        </li>
+                        <li class="year">2022</li>
+                        <li class="courseLink">
+                            <a href="https://rs.school/js/">RSSchool</a>
+                        </li>                    
+                    </ul>
+                </nav>
+            </footer>
+        </section>
+
+
+
+    </main>
 </body>
 </html>
